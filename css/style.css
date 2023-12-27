@@ -1,0 +1,105 @@
+.chrismas {
+    margin: 50px auto;
+    width: 1020px;
+    height: 693px;
+    background-image: url(../images/christmas.jpg);
+    background-color: blue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.santa {
+    width: 320px;
+    height: 225px;
+    display: inline-block;
+    position: absolute;
+    animation: claus 16s infinite;
+
+}
+
+@keyframes claus {
+    from {
+        left: -300px
+    }
+
+    to {
+        left: 1100px
+    }
+}
+
+
+.snowman {
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+    bottom: -15px;
+    left: 250px;
+    transition: all 2s;
+}
+
+.snowman:hover {
+    transform: rotateY(360deg);
+}
+
+.snowflake3 {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    animation: flake3 10s infinite;
+    left: 390px;
+}
+
+@keyframes flake3 {
+    from {
+        top: -300px
+    }
+
+    to {
+        top: 750px
+    }
+}
+
+.snowflake2 {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    animation: flake2 10s infinite;
+    left: 190px;
+}
+
+@keyframes flake2 {
+    from {
+        top: -150px
+    }
+
+    to {
+        top: 750px
+    }
+}
+
+.snowflake {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    animation: flake 10s infinite;
+    left: 790px;
+}
+
+@keyframes flake {
+    from {
+        top: -50px
+    }
+
+    to {
+        top: 750px
+    }
+}
